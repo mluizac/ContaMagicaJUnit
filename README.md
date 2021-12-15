@@ -13,8 +13,8 @@ public void retirada(BigDecimal valor) {…}
 Escreva um conjunto de casos de teste que procura identificar defeitos na classe ContaMagica.
 
 2) Vamos construir uma classe MktBanco, que verifica quanto falta para uma ContaMágica trocar de categoria:
-• faltanteProxCategoria() -> diz quanto falta ser depositado para que a conta passe para a próxima categoria;
-• proxCategoria() -> informa qual a categoria seguinte da conta, dada sua categoria atual.
+faltanteProxCategoria() -> diz quanto falta ser depositado para que a conta passe para a próxima categoria;
+proxCategoria() -> informa qual a categoria seguinte da conta, dada sua categoria atual.
 Teste, primeiramente, com uma objetos “Mockados” e, depois, com objetos ContaMagica instaciado.
 public class MktBanco {
 public MktBanco(ContaMagica cta){…}
