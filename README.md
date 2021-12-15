@@ -1,4 +1,4 @@
-Exercício implementando Testes com JUnit na classe ContaMagica e após na classe MktBanco utilizando Mock da classe ContaMagica.
+Implementando Testes com JUnit na classe ContaMagica e após na classe MktBanco utilizando Mock da classe ContaMagica.
 
 Exercícios sobre teste de unidade
 1) Um banco possui um produto diferenciado chamado “conta mágica”. Nesta conta, quanto mais dinheiro o cliente tem depositado mais o banco valoriza seus depósitos. Todos os clientes iniciam na categoria “Silver”. Clientes “Silver” não têm seus depósitos valorizados, ou seja, o valor creditado é exatamente o valor depositado pelo cliente. Quando o saldo da conta atinge ou ultrapassa R$ 50.000,00, o cliente passa para a categoria “Gold”. Clientes “Gold” têm seus depósitos valorizados em 1%. Neste caso se o cliente depositar R$ 1.000,00 o valor creditado será de R$ 1.010,00. Finalmente se o saldo da conta atinge ou supera os R$ 200.000,00 o cliente passa para a categoria “Platinum”. Clientes “Platinum” têm seus depósitos valorizados em 2,5%. A verificação de “upgrade” da conta se dá via operação de depósito.
